@@ -801,6 +801,10 @@ section{
     .home .slide .content h3{
         font-size: 4rem;
     }
+    .footer .icons-container{
+        grid-template-columns: repeat(auto-fit, minmax(16rem,1fr));
+        gap: 1.5rem;
+    }
     .order .popup{
         width: 78%;
         padding: 0 15px 15px;
