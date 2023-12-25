@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"/>
+    <title>Gusto</title>
+</head>
+<body>
+    <!--header section-->
+    <section class="header">
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>GUSTO</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#food">Food</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+
+
+
+    <!--home section-->
+    <section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide" style="background: url(bg21.jpg) no-repeat;">
+                <div class="content">
+                    <span>Where every dish</span>
+                    <h3>Tells a story of flavor</h3>
+                    <a href="#order" class="btn">Get Started</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(bg31.png) no-repeat;">
+                <div class="content">
+                    <span>A culinary journey of</span>
+                    <h3>Pure Pleasure</h3>
+                    <a href="#order" class="btn">Get Started</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(bg41.png) no-repeat;">
+                <div class="content">
+                    <span>A symphony</span>
+                    <h3>of flavors in every dish</h3>
+                    <a href="#order" class="btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--about section-->
+<section class="about" id="about">
+    <div class="image">
+        <img src="about.jpg" alt="abt">
+    </div>
+    <div class="content">
+        <h3 class="title">Gusto: Where Passion Meets Palate Perfection</h3>
+        <p>At Gusto, we go beyond the ordinary to deliver an exceptional dining affair. Imbued with passion and commitment, our chefs curate an exquisite menu, ensuring that every dish served is a testament to quality and craftsmanship. Step into the world of Gusto, where culinary finesse meets your discerning taste buds, leaving you with an everlasting appreciation for the art of flavor.</p>
+        <a href="#" class="btn1">Read More</a>
+        <div class="icons-container">
+            <div class="icons">
+                <img src="hat_icon.png" alt="hat">
+                <h3>Culinary Passion</h3>
+            </div>
+            <div class="icons">
+                <img src="food_icon.png" alt="food">
+                <h3>Tale of Quality</h3>
+            </div>
+            <div class="icons">
+                <img src="cocktail_icon.png" alt="cocktail">
+                <h3>Distinctive Flavors</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--food section-->
+<section class="food" id="food">
+    <div class="heading">
+        <span>Gourmet Delights</span>
+    </div>
+    <div class="swiper food-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide" data-name="food-1">
+                <img src="cheesecake-1.jpg" alt="">
+                <h3>Blueberry Bliss Cheesecake </h3>
+                <p>Indulge in a Symphony of Blueberries and Creamy Cheese atop a Velvet Crust.</p>
+                <div class="price">$12.99</div>
+            </div>
+            <div class="swiper-slide slide" data-name="food-2">
+                <img src="chat-1.jpg" alt="">
+                <h3>Mystic Katori Chaat</h3>
+                <p>A Journey with Crisp Chaat Baskets Overflowing with Exotic Spices.</p>
+                <div class="price">$9.99</div>
+            </div>
+            <div class="swiper-slide slide" data-name="food-3">
+                <img src="garlic-bread-1.jpg" alt="">
+                <h3> Stuffed Garlic Bread</h3>
+                <p>Magic of Garlic and Melting Cheese in Golden Bread, an Epicurean Delight.</p>
+                <div class="price">$8.99</div>
+            </div>
+            <div class="swiper-slide slide" data-name="food-4">
+                <img src="gravy-bread-1.jpg" alt="">
+                <h3>Turkish Bread with Gravy</h3>
+                <p>Heart of Turkey with Fluffy Bread and Rich Gravy, a Feast Fit for Royalty.</p>
+                <div class="price">$14.99</div>
+            </div>
+            <div class="swiper-slide slide" data-name="food-5">
+                <img src="pizza-1.jpg" alt="">
+                <h3>Majestic Pizzaria Medley</h3>
+                <p>An Opulent Palette of Flavors on a Golden Crust, A Delight for Pizza Aficionados.</p>
+                <div class="price">$16.99</div>
+            </div>
+            <div class="swiper-slide slide" data-name="food-6">
+                <img src="kathi-rolls-1.jpg" alt="">
+                <h3>Paneer Palace Kathi Rolls</h3>
+                <p>Royal Treatment with Rolled Parcels of Grilled Paneer, Spices, and Fresh Veggies.</p>
+                <div class="price">$11.99</div>
+            </div>
+            <div class="swiper-slide slide" data-name="food-7">
+                <img src="red-velvet-cake-1.jpg" alt="">
+                <h3>Scarlet Velvet Elegance Cake</h3>
+                <p>The Epitome of Decadent Red Velvet Indulgence.</p>
+                <div class="price">$13.99</div>
+            </div>
+            <div class="swiper-slide slide" data-name="food-8">
+                <img src="sushi-1.jpg" alt="">
+                <h3>Zen Sushi Symphony</h3>
+                <p>Harmony of the Seas in Every Bite - Zen Sushi Rolls Infused with Brilliance.</p>
+                <div class="price">$18.99</div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+
+
+
+
+<!--food preview section-->
+<section class="food-preview-container">
+    <div id="close-preview" class="fas fa-times"></div>
+    <div class="food-preview" data-target="food-1">
+        <img src="cheesecake-1.jpg" alt="cc">
+        <h3>Blueberry Bliss Cheesecake</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Indulge in a Symphony of Blueberries and Creamy Cheese atop a Velvet Crust.</p>
+        <div class="price">$12.99</div>
+        <a href="#order" class="btn1">Order Now</a>
+    </div>
+    <div class="food-preview" data-target="food-2">
+        <img src="chat-1.jpg" alt="cc">
+        <h3>Mystic Katori Chaat</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>A Journey with Crisp Chaat Baskets Overflowing with Exotic Spices.</p>
+        <div class="price">$9.99</div>
+        <a href="#order" class="btn1">Order Now</a>
+    </div>
+    <div class="food-preview" data-target="food-3">
+        <img src="garlic-bread-1.jpg" alt="cc">
+        <h3>Stuffed Garlic Bread</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Magic of Garlic and Melting Cheese in Golden Bread, an Epicurean Delight.</p>
+        <div class="price">$8.99</div>
+        <a href="#order" class="btn1">Order Now</a>
+    </div>
+    <div class="food-preview" data-target="food-4">
+        <img src="gravy-bread-1.jpg" alt="cc">
+        <h3>Turkish Bread with Gravy</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>An Opulent Palette of Flavors on a Golden Crust, A Delight for Pizza Aficionados.</p>
+        <div class="price">$16.99</div>
+        <a href="#order" class="btn1">Order Now</a>
+    </div>
+    <div class="food-preview" data-target="food-5">
+        <img src="pizza-1.jpg" alt="cc">
+        <h3>Majestic Pizzaria Medley</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>An Opulent Palette of Flavors on a Golden Crust, A Delight for Pizza Aficionados.</p>
+        <div class="price">$16.99</div>
+        <a href="#order" class="btn1">Order Now</a>
+    </div>
+    <div class="food-preview" data-target="food-6">
+        <img src="kathi-rolls-1.jpg" alt="cc">
+        <h3>Paneer Palace Kathi Rolls</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half alt"></i>
+        </div>
+        <p>Royal Treatment with Rolled Parcels of Grilled Paneer, Spices, and Fresh Veggies.</p>
+        <div class="price">$11.99</div>
+        <a href="#order" class="btn1">Order Now</a>
+    </div>
+    <div class="food-preview" data-target="food-7">
+        <img src="red-velvet-cake-1.jpg" alt="cc">
+        <h3>Scarlet Velvet Elegance Cake</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>The Epitome of Decadent Red Velvet Indulgence.</p>
+        <div class="price">$13.99</div>
+        <a href="#order" class="btn1">Order Now</a>
+    </div>
+    <div class="food-preview" data-target="food-8">
+        <img src="sushi-1.jpg" alt="cc">
+        <h3>Zen Sushi Symphony</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Harmony of the Seas in Every Bite - Zen Sushi Rolls Infused with Brilliance.</p>
+        <div class="price">$18.99</div>
+        <a href="#order" class="btn1">Order Now</a>
+    </div>
+</section>
+
+
+
+
+<!--gallery section-->
+<section class="gallery" id="gallery">
+    <div class="heading">
+        <span>Meal Captures</span>
+    </div>
+    <div class="gallery-container">
+        <a href="#" class="box">
+            <img src="biryani-1.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="bruschetta.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="burger.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="chocolate-cake.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="dumplings.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="korean-dumpling-soup.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="lasagne.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="nachos.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="paneer-tikka-1.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="pasta.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="pita-bread-humus.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="ravioli.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="risoto.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="samosa.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="sandwich.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="spagetti.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="tarts.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+        <a href="#" class="box">
+            <img src="thai-dumplings.jpg" alt="">
+            <div class="icon"><i class="fas fa-plus"></i></div>
+        </a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!--menu section-->
+<section class="menu" id="menu">
+    <div class="heading">
+        <span>Menu</span>
+    </div>
+    <div class="swiper menu-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <h3 class="title">Breakfast</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="info">
+                            <h3>Spicy Morning Delight</h3>
+                            <p>Masala Dosa, Coconut Chutney, South Indian Filter Coffee.</p>
+                        </div>
+                        <div class="price">$12.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Italian Sunrise</h3>
+                            <p>Caprese Frittata, Prosciutto Bruschetta, Espresso Shot.</p>
+                        </div>
+                        <div class="price">$13.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Tropical Zenith</h3>
+                            <p>Coconut Chia Pudding, Tropical Fruit Smoothie Bowl, Mango Lassi.</p>
+                        </div>
+                        <div class="price">$14.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Mediterranean Bliss</h3>
+                            <p>Spinach and Feta Omelette, Greek Yogurt Parfait, Cappuccino.</p>
+                        </div>
+                        <div class="price">$14.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Avocado Fusion</h3>
+                            <p>Avocado Toast Trio, Quinoa Breakfast Bowl, Turmeric Latte.</p>
+                        </div>
+                        <div class="price">$13.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>French Riviera Morning</h3>
+                            <p>Vegetarian Croissant, Caprese Crepes, Espresso.</p>
+                        </div>
+                        <div class="price">$15.99</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <h3 class="title">Lunch</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="info">
+                            <h3>Spice Haven</h3>
+                            <p>Paneer Butter Masala, Vegetable Biryani, Garlic Naan.</p>
+                        </div>
+                        <div class="price">$17.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Mediterranean Feast</h3>
+                            <p>Greek Salad Wrap, Hummus Platter, Baklava.</p>
+                        </div>
+                        <div class="price">$16.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Oriental Delicacies</h3>
+                            <p>Vegetable Spring Rolls, Pad Thai Noodles, Green Tea.</p>
+                        </div>
+                        <div class="price">$18.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Mystical Mughlai Lunch</h3>
+                            <p>Palak Paneer, Jeera Rice, Mango Lassi.</p>
+                        </div>
+                        <div class="price">$15.99</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <h3 class="title">Dinner</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="info">
+                            <h3>Rajasthani Repast</h3>
+                            <p>Dal Baati Churma, Kesar Lassi.</p>
+                        </div>
+                        <div class="price">$20.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Mediterranean Twilight</h3>
+                            <p>Falafel Platter, Eggplant Moussaka, Tzatziki.</p>
+                        </div>
+                        <div class="price">$19.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Zen Zest Dinner</h3>
+                            <p>Vegetable Sushi Platter, Miso Soup, Green Tea Ice Cream.</p>
+                        </div>
+                        <div class="price">$21.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Italian Extravaganza</h3>
+                            <p>Margherita Pizza, Vegetable Lasagna, Tiramisu.</p>
+                        </div>
+                        <div class="price">$23.99</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <h3 class="title">Drinks</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="info">
+                            <h3>Tropical Bliss Smoothie</h3>
+                            <p>Blend of Pineapple, Mango, Coconut Milk, and a hint of Mint</p>
+                        </div>
+                        <div class="price">$6.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Mango Tango Margarita</h3>
+                            <p>Tequila, Mango Puree, Lime Juice, Triple Sec, Chili Rim.</p>
+                        </div>
+                        <div class="price">$9.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Passionfruit Mojito</h3>
+                            <p>White Rum, Passionfruit, Mint, Lime, Simple Syrup, Soda.</p>
+                        </div>
+                        <div class="price">$8.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Matcha Infusion Elixir</h3>
+                            <p>A Refreshing Mix of Matcha, Honey, and Citrus Zest.
+                            </p>
+                        </div>
+                        <div class="price">$5.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Spiced pineapple Rum Punch</h3>
+                            <p>Dark Rum, Pineapple Juice, Lime, Cinnamon, Nutmeg.</p>
+                        </div>
+                        <div class="price">$9.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Basil Berry Vodka Fizz</h3>
+                            <p>Vodka, Mixed Berries, Basil, Lemon, Simple Syrup, Club Soda.</p>
+                        </div>
+                        <div class="price">$10.99</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <h3 class="title">Dessert</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="info">
+                            <h3>Chocolate Decadence Mousse</h3>
+                            <p>Rich Dark Chocolate Mousse Infused with Espresso.</p>
+                        </div>
+                        <div class="price">$18.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Classic Cheesecake Supreme</h3>
+                            <p>Velvety New York Style Cheesecake with a Graham Cracker Crust.</p>
+                        </div>
+                        <div class="price">$9.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Rosewater Pistachio Cake</h3>
+                            <p>Moist Rose-flavored Cake with Pistachio Garnish.</p>
+                        </div>
+                        <div class="price">$7.99</div>
+                    </div>
+                    <div class="box">
+                        <div class="info">
+                            <h3>Gulab Jamun Delight</h3>
+                            <p>Warm Gulab Jamun served with a Drizzle of Rose Syrup.</p>
+                        </div>
+                        <div class="price">$7.49</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+
+
+
+
+<!--order section-->
+<section class="order" id="order">
+    <div class="heading">
+        <span>Order Now</span>
+    </div>
+    <form action="">
+        <div class="box-container">
+            <div class="box">
+                <div class="inputBox">
+                    <span>Full Name</span>
+                    <input type="text" placeholder="Enter Your Name" id="">
+                </div>
+                <div class="inputBox">
+                    <span>Dish</span>
+                    <input type="text" placeholder="Your Order" id="">
+                </div>
+                <div class="inputBox">
+                    <span>Specifications</span>
+                    <input type="text" placeholder="Any Add-ons" id="">
+                </div>
+                <div class="inputBox">
+                    <span>Address Details</span>
+                    <textarea placeholder="Address" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inputBox">
+                    <span>Phone</span>
+                    <input type="number" placeholder="Enter Your Phone No." id="">
+                </div>
+                <div class="inputBox">
+                    <span>Quantity</span>
+                    <input type="text" placeholder="No. of dishes" id="">
+                </div>
+                <div class="inputBox">
+                    <span>Date & Time</span>
+                    <input type="datetime-local">
+                </div>
+                <div class="inputBox">
+                    <span>Location</span>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.0901486310736!2d72.82196110997995!3d19.0597736524088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9ecc7ae2591%3A0xe7eec8b02babfbc6!2sBandra%20west!5e0!3m2!1sen!2sin!4v1703485113417!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <input type="submit" value="Order Now" class="btn1" id="submit">
+    </form> 
+    <div class="popup" id="popup">
+        <img src="tick.png" alt="">
+        <h5>Thank you for placing your order with Gusto!</h5>
+        <p>Your order is confirmed and will be prepared shortly. Enjoy your meal!</p>
+        <button type="button" class="btn1" id="close-popup">Got it</button>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!--blogs section-->
+<section class="blogs" id="blogs">
+    <div class="heading">
+        <span>Daily Blogs</span>
+    </div>
+    <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#" class="bor"><i class="fas fa-calendar"></i>21st May, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i>Admin</a>
+                    </div>
+                    <a href="#" class="title">Flavor Fiesta</a>
+                    <p>Dive into a symphony of flavors as we explore vibrant dishes from around the world, sharing recipes and culinary tales to tantalize your taste buds.</p>
+                    <a href="#" class="btn1">Explore</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#" class="bor"><i class="fas fa-calendar"></i>22nd May, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i>Admin</a>
+                    </div>
+                    <a href="#" class="title">Crave Chronicles</a>
+                    <p>Embark on a journey through the world of irresistible cravings, discovering the stories behind our most loved comfort foods and how to recreate them at home.</p>
+                    <a href="#" class="btn1">Explore</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#" class="bor"><i class="fas fa-calendar"></i>23rd May, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i>Admin</a>
+                    </div>
+                    <a href="#" class="title">Gastronomic Gems</a>
+                    <p>Explore hidden culinary gems as we take you on a gastronomic adventure, unveiling the extraordinary dishes and eateries that make every bite a gem.</p>
+                    <a href="#" class="btn1">Explore</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#" class="bor"><i class="fas fa-calendar"></i>24th May, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i>Admin</a>
+                    </div>
+                    <a href="#" class="title">Sip & Savour</a>
+                    <p>Indulge in the art of savoring as we pair exquisite dishes with the finest beverages, guiding you through the perfect combinations for an unforgettable dining experience.</p>
+                    <a href="#" class="btn1">Explore</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#" class="bor"><i class="fas fa-calendar"></i>25th May, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i>Admin</a>
+                    </div>
+                    <a href="#" class="title">Sweet Symphony</a>
+                    <p>Join us in the sweet symphony of desserts, where each blog unravels the magic of decadent treats, from classic confections to innovative dessert delights.</p>
+                    <a href="#" class="btn1">Explore</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="blog6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icon">
+                        <a href="#" class="bor"><i class="fas fa-calendar"></i>26th May, 2023</a>
+                        <a href="#"><i class="fas fa-user"></i>Admin</a>
+                    </div>
+                    <a href="#" class="title">Saucy Secrets</a>
+                    <p>Uncover the art of perfecting sauces and condiments as we spill the saucy secrets that elevate your meals to new heights of deliciousness.</p>
+                    <a href="#" class="btn1">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--footer section-->
+<section class="footer">
+    <div class="icons-container">
+        <div class="icons">
+            <i class="fas fa-clock"></i>
+            <h3>Opening Hours</h3>
+            <p>07:00 a.m - 11:30 p.m</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>Contact No.</h3>
+            <p>+729-567-8945</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>E-mail</h3>
+            <p>contact@gusto.com</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-map"></i>
+            <h3>Address</h3>
+            <p>34, Pali Hill - Bandra West</p>
+            <p>Mumbai, Maharashtra - 400050</p>
+        </div>
+    </div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+    <div class="credit">Copyright © <span>Sakshi Tiwari</span> |   All Rights Reserved</div>
+</section>
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+</body>
+</html>
